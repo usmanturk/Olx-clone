@@ -1,58 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Olx</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
-   <div class="head">
-    <div>
-        <img class="logo" src="./Assets/olx-logo.png" alt="">
-    </div>
-    <div>
-        <img src="./Assets/head/car.jpeg" alt="">
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="header">
+    <div class="head">
+      <div>
+        <img class="logo" src="./Assets/olx-logo.png" alt="" />
+      </div>
+      <div>
+        <img src="./Assets/head/car.jpeg" alt="" />
         <h2>Motors</h2>
-    </div>
-    <div>
-        <img src="./Assets/head/prop.jpeg" alt="">
+      </div>
+      <div>
+        <img src="./Assets/head/prop.jpeg" alt="" />
         <h2>Property</h2>
+      </div>
     </div>
-   </div> 
-   <div class="sub-head">
-<div class="location">
-    <i class="fa-solid fa-location-dot"></i>
-    <select name="location" id="loaction">
-        <option value="Pakistan" selected>Pakistan</option>
-        <option value="Karachi">Karachi</option>
-        <option value="Lahore">Lahore</option>
-        <option value="Peshawar">Peshawar</option>
-    </select>
+    <div class="sub-head">
+      <div class="location">
+        <i class="fa-solid fa-location-dot"></i>
+        <select name="location" id="loaction">
+          <option value="Pakistan" selected>Pakistan</option>
+          <option value="Karachi">Karachi</option>
+          <option value="Lahore">Lahore</option>
+          <option value="Peshawar">Peshawar</option>
+        </select>
+      </div>
+      <div class="search">
+        <input
+          type="search"
+          placeholder="Find Cars, Mobile Phones or more..."
+        />
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+      <div class="buttons">
+        <a class="login" href="">login</a>
+        <button class="sell">+SELL</button>
+      </div>
+    </div>
 </div>
-<div class="search">
-    <input type="search" placeholder="Find Cars, Mobile Phones or more...">
-    <i class="fa-solid fa-magnifying-glass"></i>
-</div>
-<div class="buttons">
-    <a class="login" href="">login</a>
-<button class="sell">+SELL</button>
-
-</div>
-   </div>
-   <hr style="color: black; margin-top: 1rem;">
-   <div class="nav-bar">
-    <select name="category" id="ctgry">
+    <hr style="color: black; margin-top: 1rem" />
+    <div class="nav-bar">
+      <select name="category" id="ctgry">
         <option value="">All Categories</option>
         <option value="">Mobile</option>
         <option value="">Vehicles</option>
         <option value="">Property</option>
         <option value="">Electronics & Home Appliances</option>
         <option value="">Jobs</option>
-    </select>
-    <ul> 
-        
+      </select>
+      <ul>
         <li><a href="">Mobile Phones</a></li>
         <li><a href="">Cars</a></li>
         <li><a href="">Motorcycles</a></li>
@@ -60,216 +69,285 @@
         <li><a href="">Video-Audios</a></li>
         <li><a href="">Tablets</a></li>
         <li><a href="">Land & Plot</a></li>
-    </ul>
-   </div>
-   <div class="slide">
-    <img src="./Assets/sliser.jpeg" alt="">
-   </div>
-   <div class="All-category">
-    <h1>All Categories</h1>
-    <div class="all-ctgry">
+      </ul>
+    </div>
+    <div class="slide">
+      <img src="./Assets/sliser.jpeg" alt="" />
+    </div>
+    <div class="All-category">
+      <h1>All Categories</h1>
+      <div class="all-ctgry">
         <div class="all-ctgry-img">
-            <img src="./Assets/All-categories/1.png" alt="">
-            <p>Mobiles</p>
+          <img src="./Assets/All-categories/1.png" alt="" />
+          <p>Mobiles</p>
         </div>
         <div class="all-ctgry-img">
-            <img src="./Assets/All-categories/2.png" alt="">
-            <p>Vehicles</p>
+          <img src="./Assets/All-categories/2.png" alt="" />
+          <p>Vehicles</p>
         </div>
-       
+
         <div class="all-ctgry-img">
-            <img src="./Assets/All-categories/3.png" alt="">
-            <p>Property for Sale</p>
-        </div>
-        <div class="all-ctgry-img">
-            <img src="./Assets/All-categories/4.png" alt="">
-            <p>Property for Rent</p>
+          <img src="./Assets/All-categories/3.png" alt="" />
+          <p>Property for Sale</p>
         </div>
         <div class="all-ctgry-img">
-            <img src="./Assets/All-categories/5.png" alt="">
-            <p>Electronics & Home Appliances</p>
-        </div>
-        
-        <div class="all-ctgry-img">
-            <img src="./Assets/All-categories/6.png" alt="">
-            <p>Bikes</p>
+          <img src="./Assets/All-categories/4.png" alt="" />
+          <p>Property for Rent</p>
         </div>
         <div class="all-ctgry-img">
-            <img src="./Assets/All-categories/8.png" alt="">
-            <p>Industrial & Agricultural</p>
+          <img src="./Assets/All-categories/5.png" alt="" />
+          <p>Electronics & Home Appliances</p>
+        </div>
+
+        <div class="all-ctgry-img">
+          <img src="./Assets/All-categories/6.png" alt="" />
+          <p>Bikes</p>
         </div>
         <div class="all-ctgry-img">
-            <img src="./Assets/All-categories/9.png" alt="">
-            <p>Services</p>
+          <img src="./Assets/All-categories/8.png" alt="" />
+          <p>Industrial & Agricultural</p>
         </div>
         <div class="all-ctgry-img">
-            <img src="./Assets/All-categories/10.png" alt="">
-            <p>Jobs</p>
+          <img src="./Assets/All-categories/9.png" alt="" />
+          <p>Services</p>
         </div>
         <div class="all-ctgry-img">
-            <img src="./Assets/All-categories/11.png" alt="">
-            <p>Animala</p>
+          <img src="./Assets/All-categories/10.png" alt="" />
+          <p>Jobs</p>
         </div>
         <div class="all-ctgry-img">
-            <img src="./Assets/All-categories/12.png" alt="">
-            <p>Furniture & Home Decor</p>
+          <img src="./Assets/All-categories/11.png" alt="" />
+          <p>Animala</p>
         </div>
         <div class="all-ctgry-img">
-            <img src="./Assets/All-categories/13.png" alt="">
-            <p>Fashion</p>
+          <img src="./Assets/All-categories/12.png" alt="" />
+          <p>Furniture & Home Decor</p>
         </div>
         <div class="all-ctgry-img">
-            <img src="./Assets/All-categories/14.png" alt="">
-            <p>Books</p>
+          <img src="./Assets/All-categories/13.png" alt="" />
+          <p>Fashion</p>
         </div>
         <div class="all-ctgry-img">
-            <img src="./Assets/All-categories/15.png" alt="">
-            <p>Kids</p>
+          <img src="./Assets/All-categories/14.png" alt="" />
+          <p>Books</p>
         </div>
-       </div>
+        <div class="all-ctgry-img">
+          <img src="./Assets/All-categories/15.png" alt="" />
+          <p>Kids</p>
+        </div>
+      </div>
     </div>
     <section class="Section">
-        <h1>Cars</h1>
-        <div class="Sec">
-            <div class="card">
-                <img src="./Assets/card/car.jpg" >
-                <div class="price"><h5>RS 75,0000</h5>
-                    <i class="fa-regular fa-heart"></i>
-                </div>
-                <h5>The Freedom of Choices at Car Rental Karachi</h5>
-                <p>Karachi</p>
-                <p>2d ago</p>
-            </div>
-            <div class="card">
-                <img src="./Assets/card/car.jpg" >
-                <div class="price"><h5>RS 75,0000</h5>
-                    <i class="fa-regular fa-heart"></i>
-                </div>
-                <h5>The Freedom of Choices at Car Rental Karachi</h5>
-                <p>Karachi</p>
-                <p>2d ago</p>
-            </div>
-            <div class="card">
-                <img src="./Assets/card/car.jpg" >
-                <div class="price"><h5>RS 75,0000</h5>
-                    <i class="fa-regular fa-heart"></i>
-                </div>
-                <h5>The Freedom of Choices at Car Rental Karachi</h5>
-                <p>Karachi</p>
-                <p>2d ago</p>
-            </div>
-            <div class="card">
-                <img src="./Assets/card/car.jpg" >
-                <div class="price"><h5>RS 75,0000</h5>
-                    <i class="fa-regular fa-heart"></i>
-                </div>
-                <h5>The Freedom of Choices at Car Rental Karachi</h5>
-                <p>Karachi</p>
-                <p>2d ago</p>
-            </div>
+      <h1>Cars</h1>
+      <div class="Sec">
+        <div class="card">
+          <img src="./Assets/card/car.jpg" />
+          <div class="price">
+            <h5>RS 75,0000</h5>
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <h5>The Freedom of Choices at Car Rental Karachi</h5>
+          <p>Karachi</p>
+          <p>2d ago</p>
         </div>
+        <div class="card">
+          <img src="./Assets/card/car.jpg" />
+          <div class="price">
+            <h5>RS 75,0000</h5>
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <h5>The Freedom of Choices at Car Rental Karachi</h5>
+          <p>Karachi</p>
+          <p>2d ago</p>
+        </div>
+        <div class="card">
+          <img src="./Assets/card/car.jpg" />
+          <div class="price">
+            <h5>RS 75,0000</h5>
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <h5>The Freedom of Choices at Car Rental Karachi</h5>
+          <p>Karachi</p>
+          <p>2d ago</p>
+        </div>
+        <div class="card">
+          <img src="./Assets/card/car.jpg" />
+          <div class="price">
+            <h5>RS 75,0000</h5>
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <h5>The Freedom of Choices at Car Rental Karachi</h5>
+          <p>Karachi</p>
+          <p>2d ago</p>
+        </div>
+      </div>
     </section>
     <section class="Section">
-        <h1>Mobiles</h1>
-        <div class="Sec">
-            <div class="card">
-                <img src="./Assets/card/mob.jpg" >
-                <div class="price"><h5>RS 75,000</h5>
-                    <i class="fa-regular fa-heart"></i>
-                </div>
-                <h5>Apple debuts iPhone 16 Pro and iPhone 16 Pro Max</h5>
-                <p>Karachi</p>
-                <p>2d ago</p>
-            </div>
-            <div class="card">
-                <img src="./Assets/card/mob.jpg" >
-                <div class="price"><h5>RS 75,000</h5>
-                    <i class="fa-regular fa-heart"></i>
-                </div>
-                <h5>Apple debuts iPhone 16 Pro and iPhone 16 Pro Max</h5>
-                <p>Karachi</p>
-                <p>2d ago</p>
-            </div>
-            <div class="card">
-                <img src="./Assets/card/mob.jpg" >
-                <div class="price"><h5>RS 75,000</h5>
-                    <i class="fa-regular fa-heart"></i>
-                </div>
-                <h5>Apple debuts iPhone 16 Pro and iPhone 16 Pro Max</h5>
-                <p>Karachi</p>
-                <p>2d ago</p>
-            </div>
-            <div class="card">
-                <img src="./Assets/card/mob.jpg" >
-                <div class="price"><h5>RS 75,000</h5>
-                    <i class="fa-regular fa-heart"></i>
-                </div>
-                <h5>Apple debuts iPhone 16 Pro and iPhone 16 Pro Max</h5>
-                <p>Karachi</p>
-                <p>2d ago</p>
-            </div>
+      <h1>Mobiles</h1>
+      <div class="Sec">
+        <div class="card">
+          <img src="./Assets/card/mob.jpg" />
+          <div class="price">
+            <h5>RS 75,000</h5>
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <h5>Apple debuts iPhone 16 Pro and iPhone 16 Pro Max</h5>
+          <p>Karachi</p>
+          <p>2d ago</p>
         </div>
+        <div class="card">
+          <img src="./Assets/card/mob.jpg" />
+          <div class="price">
+            <h5>RS 75,000</h5>
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <h5>Apple debuts iPhone 16 Pro and iPhone 16 Pro Max</h5>
+          <p>Karachi</p>
+          <p>2d ago</p>
+        </div>
+        <div class="card">
+          <img src="./Assets/card/mob.jpg" />
+          <div class="price">
+            <h5>RS 75,000</h5>
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <h5>Apple debuts iPhone 16 Pro and iPhone 16 Pro Max</h5>
+          <p>Karachi</p>
+          <p>2d ago</p>
+        </div>
+        <div class="card">
+          <img src="./Assets/card/mob.jpg" />
+          <div class="price">
+            <h5>RS 75,000</h5>
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <h5>Apple debuts iPhone 16 Pro and iPhone 16 Pro Max</h5>
+          <p>Karachi</p>
+          <p>2d ago</p>
+        </div>
+      </div>
     </section>
     <section class="Section">
-        <h1>Houses</h1>
-        <div class="Sec">
-            <div class="card">
-                <img src="./Assets/card/house.jpg" >
-                <div class="price"><h5>RS 75,0000</h5>
-                    <i class="fa-regular fa-heart"></i>
-                </div>
-                <h5>YOUR GUIDE TO MODERN HOUSE DESIGN</h5>
-                <p>Karachi</p>
-                <p>2d ago</p>
-            </div>
-            <div class="card">
-                <img src="./Assets/card/house.jpg" >
-                <div class="price"><h5>RS 75,0000</h5>
-                    <i class="fa-regular fa-heart"></i>
-                </div>
-                <h5>YOUR GUIDE TO MODERN HOUSE DESIGN</h5>
-                <p>Karachi</p>
-                <p>2d ago</p>
-            </div>
-            <div class="card">
-                <img src="./Assets/card/house.jpg" >
-                <div class="price"><h5>RS 75,0000</h5>
-                    <i class="fa-regular fa-heart"></i>
-                </div>
-                <h5>YOUR GUIDE TO MODERN HOUSE DESIGN</h5>
-                <p>Karachi</p>
-                <p>2d ago</p>
-            </div>
-            <div class="card">
-                <img src="./Assets/card/house.jpg" >
-                <div class="price"><h5>RS 75,0000</h5>
-                    <i class="fa-regular fa-heart"></i>
-                </div>
-                <h5>YOUR GUIDE TO MODERN HOUSE DESIGN</h5>
-                <p>Karachi</p>
-                <p>2d ago</p>
-            </div>
+      <h1>Houses</h1>
+      <div class="Sec">
+        <div class="card">
+          <img src="./Assets/card/house.jpg" />
+          <div class="price">
+            <h5>RS 75,0000</h5>
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <h5>YOUR GUIDE TO MODERN HOUSE DESIGN</h5>
+          <p>Karachi</p>
+          <p>2d ago</p>
         </div>
+        <div class="card">
+          <img src="./Assets/card/house.jpg" />
+          <div class="price">
+            <h5>RS 75,0000</h5>
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <h5>YOUR GUIDE TO MODERN HOUSE DESIGN</h5>
+          <p>Karachi</p>
+          <p>2d ago</p>
+        </div>
+        <div class="card">
+          <img src="./Assets/card/house.jpg" />
+          <div class="price">
+            <h5>RS 75,0000</h5>
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <h5>YOUR GUIDE TO MODERN HOUSE DESIGN</h5>
+          <p>Karachi</p>
+          <p>2d ago</p>
+        </div>
+        <div class="card">
+          <img src="./Assets/card/house.jpg" />
+          <div class="price">
+            <h5>RS 75,0000</h5>
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <h5>YOUR GUIDE TO MODERN HOUSE DESIGN</h5>
+          <p>Karachi</p>
+          <p>2d ago</p>
+        </div>
+      </div>
     </section>
     <section class="footer">
-        <div class="upper">
-            <div>
-            <img src="./Assets/Footer/1.webp" alt=""></div>
-            <div class="foot-sec">
-                <h1>TRY THE OLX APP</h1>
-                <p>Buy, sell and find just about anything using the app on your mobile.</p>
-            </div>
-            <div class="foot-app">
-                <p>GET YOUR APP TODAY</p>
-                <div class="logo">
-                    <img src="./Assets/Footer/playstore.png" alt="">
-                    <img src="./Assets/Footer/app.webp" alt="">
-                    <img src="./Assets/Footer/gllry.png" alt="">
-
-                </div>
-
-            </div>
+      <div class="upper">
+        <div>
+          <img src="./Assets/Footer/1.webp" alt="" />
         </div>
+        <div class="foot-sec">
+          <h1>TRY THE OLX APP</h1>
+          <p>
+            Buy, sell and find just about anything using the app on your mobile.
+          </p>
+        </div>
+        <div class="foot-app">
+          <p>GET YOUR APP TODAY</p>
+          <div class="logo">
+            <img src="./Assets/Footer/playstore.png" alt="" />
+            <img src="./Assets/Footer/app.webp" alt="" />
+            <img src="./Assets/Footer/gllry.svg" alt="" />
+          </div>
+        </div>
+      </div>
+      <hr style="color: black; margin-bottom: 1rem;" />
+      <div class="lower">
+        <div class="foot-div">
+            <h5>POPULAR CATEGORIES</h5>
+            <ul>
+                <li>Cars</li>
+                <li>Flats for rent</li>
+                <li>Mobile Phones</li>
+                <li>Jobs</li>
+            </ul>
+        </div>
+        <div class="foot-div">
+            <h5>TRENDING SEARCHES</h5>
+            <ul>
+                <li>Bikes</li>
+                <li>Watches</li>
+                <li>Books</li>
+                <li>Dogs</li>
+            </ul>
+        </div>
+        <div class="foot-div">
+            <h5>ABOUT US</h5>
+            <ul>
+                <li>About Dubizzle Group</li>
+                <li>Olx Blog</li>
+                <li>Contact us</li>
+                <li>Olx for Businesses</li>
+            </ul>
+        </div>
+        <div class="foot-div">
+            <h5>Olx</h5>
+            <ul>
+                <li>Help</li>
+                <li>Sitemap</li>
+                <li>Terms of use</li>
+                <li>Privacy Policy</li>
+            </ul>
+        </div>
+        <div class="follow">
+            <div>
+           <h5>FOLLOW US</h5>
+           <i class="fa-brands fa-facebook"></i>
+           <i class="fa-brands fa-instagram"></i>
+           <i class="fa-brands fa-twitter"></i>
+           <i class="fa-brands fa-youtube"></i> 
+        </div>
+        
+            <div class="logo">
+                <img src="./Assets/Footer/playstore.png" alt="" />
+                <img src="./Assets/Footer/app.webp" alt="" />
+                <img src="./Assets/Footer/gllry.svg" alt="" />
+              </div>
+        
+
+        </div>
+      </div>
     </section>
-</body>
+  </body>
 </html>

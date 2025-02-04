@@ -7,10 +7,19 @@ a {
   text-decoration: none;
   color: #000;
 }
+.header{
+  background-color:white;
+  position: sticky;
+  top: 0%;
+}
 .head {
   margin: 10px 5.5rem;
   display: flex;
   align-items: center;
+  position: sticky;
+  top: 10px;
+  z-index: 1;
+  /* background-color: white; */
 }
 .head div {
   display: flex;
@@ -36,6 +45,10 @@ a {
   margin: 0 5.5rem;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
+  top: 60px;
+  z-index: 1;
+  /* background-color: white; */
 }
 .sub-head div {
   border: 1px solid black;
@@ -52,6 +65,7 @@ select {
   width: 24%;
   display: flex;
   justify-content: space-between;
+  cursor: pointer;
 }
 .sub-head .search {
   width: 50%;
@@ -60,6 +74,7 @@ select {
 }
 .sub-head select {
   width: 88%;
+  cursor: pointer;
 }
 .sub-head input {
   width: 93%;
@@ -81,7 +96,7 @@ select {
   width: 18%;
   border: none;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   /* padding: 0.4rem; */
   
 }
@@ -175,13 +190,13 @@ select {
 .all-ctgry{
 display: flex;
 flex-wrap: wrap;
-justify-content: space-between;
+justify-content: left;
 }
 .all-ctgry-img{
   width: 100px;
 text-align: center;
 margin-top: 1rem;
-margin-left: 0.5rem;
+margin-left: 0.8rem;
 }
 .all-ctgry-img img{
   width: 100%;
@@ -218,6 +233,7 @@ margin-left: 0.5rem;
     width: 100%;
     display: flex;
     justify-content: space-between;
+    
   }
   .price h5{
     font-weight: bolder;
@@ -226,6 +242,7 @@ margin-left: 0.5rem;
   .price .fa-heart{
     display: block;
     width: 20%;
+    /* align-self: self-end; */
   }
   .card img,div,h5{
     margin-bottom: 0.8rem;
@@ -237,44 +254,95 @@ margin-left: 0.5rem;
   .footer{
     display: flex;
     flex-direction: column;
+    /* margin: 0 1rem; */
   }
   .footer .upper{
     display: flex;
+    margin: 0 5.5rem;
+    /* border-bottom: 0.5px solid black; */
   /* text-align: center; */
   }
   .footer .foot-app{
     padding: 0.5rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     /* align-items: center; */
   }
   .footer .foot-app .logo{
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
   }
   .footer .foot-app .logo img{
     width: 90px;
     height: 24px;
+    cursor: pointer;
   }
   .footer .upper div{
     width: 33%;
     /* border: 1px solid black; */
   }
   .footer img {
-height: 96px;
+height: 150px;
 width: 100%;
   }
   /* .foot-app .logo{
     width: 100%;
   } */
    .footer .foot-sec{
-    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-right: 0.5px solid black;
+    padding: 1rem 3rem;
    }
    .foot-sec h1{
     font-weight: bolder;
+    margin-bottom: 1rem;
+    
    }
+   
    .footer .foot-app p{
+    padding: 0.5rem 1.2rem;
     font-size: smaller;
+    margin-bottom: 0rem;
    }
+   .footer .lower{
+    display: flex;
+    margin: 0 5.5rem;
+   }
+   .footer .lower .foot-div {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+   }
+   .lower li{
+    list-style-type: none;
+    cursor: pointer;
+    color: lightslategray;
+   }
+   .lower li:hover{
+    color: #000;
+   }
+   .lower div h5{
+    font-weight: bolder;
+    color: #153332;
+   }
+   .lower .follow .logo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+   .lower .follow .logo img{
+    width: 65px;
+    height: 24px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  .follow .fa-brands{
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
